@@ -12,7 +12,9 @@ pipeline {
       }
     }
     stage("deploy") {
-      echo "just kill the man"
+      steps {
+        echo "just kill the man"
+      }
     }
   }
 }
